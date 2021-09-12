@@ -164,6 +164,11 @@ footer {
 }
 /* VIDEO */
 
+iframe {
+  width: 320px;
+  height: 200px;
+  margin: auto;
+}
 .tubelink {
   text-decoration: none;
   margin: auto;
@@ -175,7 +180,6 @@ footer {
   width: fit-content;
 }
 .video {
-  text-align: center;
   padding: 1em;
 }
 
