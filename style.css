@@ -72,6 +72,9 @@ p {
 .textfit {
   text-align: justify;
 }
+.p_text {
+  text-align: justify;
+}
 .text_deco {
   margin: 0;
   font-size: 1.25em;
