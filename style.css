@@ -1,0 +1,278 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  margin: auto;
+  padding: 0;
+}
+main {
+  background-color: rgba(188, 143, 143, 0.26);
+}
+/* BANNER STYLE */
+.banner {
+  background-color: teal;
+  background-repeat: repeat;
+  background-size: cover;
+  height: 2em;
+  text-align: center;
+  padding-top: 0.5em;
+
+  font-size: 2em;
+}
+
+/* NAV BAR STYLE*/
+
+.topnav {
+  list-style-type: none;
+  background-color: #333;
+  padding: 0;
+  margin-bottom: 0.5em;
+  margin-top: 0;
+}
+li:last-child {
+  border-right: none;
+}
+a {
+  display: block;
+  padding: 0.5em;
+}
+.topnav li a {
+  display: block;
+  color: rgb(245, 245, 245);
+  text-align: center;
+  padding: 0.4em 0.5em;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+ {
+}
+li a.active {
+  background-color: rgb(196, 113, 154);
+}
+
+/* TYPOGRAPHY */
+h1 {
+  margin: 0;
+  padding-top: 0;
+  font-size: 2em;
+}
+h2 {
+  text-align: center;
+}
+p {
+  font-size: 1rem;
+  padding: 0.5em;
+  margin: 0;
+}
+.textfit {
+  text-align: justify;
+}
+.text_deco {
+  margin: 0;
+  font-size: 1.25em;
+  border-bottom: 1px solid rgb(212, 141, 153);
+  width: fit-content;
+}
+/* PROMO DIV*/
+.promo {
+  text-align: center;
+  color: whitesmoke;
+  background-color: rgba(22, 71, 71, 0.445);
+  background-size: 100%;
+  border: 1px solid whitesmoke;
+  width: 100%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.text_promo {
+  font-size: 1.25em;
+}
+
+/* BUTTONS STYLE*/
+.btn {
+  background-color: teal;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  padding: 1em;
+  text-align: center;
+  display: inline-flex;
+  text-decoration: none;
+  font-size: 1em;
+}
+.btn:hover {
+  background-color: #333;
+  border: none;
+}
+
+.btn_1 {
+  padding: 0.5em;
+}
+.btn_2 {
+  padding: 0.5em;
+  margin-top: 1em;
+}
+/* FOOTER */
+
+.footer_p {
+  padding-top: 5px;
+  font-size: 0.95em;
+}
+footer {
+  background-color: rgb(0, 128, 128);
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  padding: 0;
+  margin: 0;
+
+  text-align: center;
+}
+.footer_a {
+  text-decoration: none;
+  color: rgb(233, 173, 223);
+  font-size: 0.85em;
+  padding: 0;
+  margin: auto;
+}
+.footer_home {
+  background-color: grey;
+  padding: 0;
+  margin: 0;
+  width: fit-content;
+}
+.footer_home a {
+  text-decoration: none;
+  color: white;
+  display: block;
+
+  margin: auto;
+}
+.footer_home a:hover {
+  color: black;
+}
+.madeby {
+  margin: 0;
+  padding: 5px;
+  font-style: italic;
+  font-size: 14px;
+}
+/* VIDEO */
+
+.tubelink {
+  text-decoration: none;
+  margin: auto;
+  font-size: 1.25em;
+  color: rgb(255, 255, 255);
+  background-color: rgb(223, 148, 223);
+  border: 1px solid rgb(36, 0, 30);
+  border-radius: 10px;
+  width: fit-content;
+}
+.video {
+  text-align: center;
+  padding: 1em;
+}
+
+/* IMAGES */
+
+.img_genius {
+  max-width: 50%;
+  display: block;
+  margin: auto;
+}
+.img_math {
+  max-width: 80%;
+  margin: auto;
+  display: block;
+  padding-bottom: 1em;
+}
+.img_log {
+  display: block;
+  padding-top: 1.5em;
+  max-width: 20%;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin: auto;
+}
+.img_solution {
+  display: block;
+  width: 80%;
+  margin: auto;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.img_les {
+  display: block;
+  width: 80%;
+  margin: auto;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+/* CONTAINER */
+.contact_p {
+  margin: 1em;
+  padding: 0;
+}
+.container {
+  margin: 1em;
+  padding: 0;
+  line-height: 1.5em;
+}
+
+.sign_form {
+  text-align: center;
+  margin-top: 2em;
+  line-height: 1.5em;
+}
+/* MEDIA QUERIES @ 750px */
+
+@media screen and (min-width: 600px) {
+  body {
+    width: 80%;
+    margin: auto;
+  }
+  .nav {
+    margin-bottom: 2rem;
+  }
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: absolute;
+    top: 4em;
+    width: 100%;
+    transition: ease-in 0.5s;
+    width: 80%;
+  }
+  .topnav li {
+    float: left;
+    border-right: 1px solid #bbb;
+  }
+  li.right-side {
+    margin: 0;
+    float: right;
+  }
+  h1 {
+    margin-top: 0.75em;
+    width: auto;
+    text-align: center;
+  }
+  h2 {
+    padding-top: 30px;
+  }
+  p {
+    margin: 0;
+  }
+  .contact_p {
+    padding-top: 40px;
+  }
+  .img_log {
+    margin-top: 3em;
+    max-width: 120px;
+  }
+}

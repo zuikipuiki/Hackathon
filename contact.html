@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main>
+    <div class="banner">
+      WiskundeGenie
+    </div>
+    <ul class="topnav">
+      <li><a class="active" href="index.html">HOME</a> </li>
+      <li><a href="news.html">NEWS</a> </li>
+      <li><a href="contact.html">CONTACT</a> </li>
+      <li><a href="about.html">ABOUT US</a> </li>
+      <li class="right-side"><a href="sign.html">SIGN IN</a> </li>
+    </ul>
+    <p class="contact_p">Stel gerust je vragen aan ons!</p>
+
+    <div class="container">
+      <form name="contact" method="POST" data-netlify="true">
+
+        <label for="fname">Vooraam</label><br>
+        <input type="text" id="fname" name="firstname"><br>
+
+        <label for="lname">Achternaam</label><br>
+        <input type="text" id="lname" name="lastname"><br>
+
+        <label for="email">Email</label><br>
+        <input type="email"><br>
+
+        <label for="question">Je vraag</label><br>
+        <textarea id="question" name="question" cols="30" rows="10" placeholder="Stel je vraag hier.."></textarea><br>
+
+        <input class="btn btn_1" type="submit" value="Verzenden">
+      </form>
+
+    </div>
+    <footer class="footer_home">
+      <a href="index.html">Back to Home</a>
+
+    </footer>
+    <footer>
+      <p class="footer_p">Meester WiskundeGenie
+        <a class="footer_a" href="mailto:wiskundegenie@bijles.nl">wiskundegenie@bijles.nl</a>
+      </p>
+
+    </footer>
+  </main>
+</body>
+
+</html>
