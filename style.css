@@ -182,6 +182,7 @@ iframe {
 }
 .video {
   padding: 1em;
+  margin: auto;
 }
 
 /* IMAGES */
